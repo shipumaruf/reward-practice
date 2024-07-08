@@ -95,6 +95,7 @@ background-image: url(../new-year-offer-resources-main/new-year-offer-resources-
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+margin-bottom: 120px;
 
 
 }
@@ -144,4 +145,46 @@ text-align:left
 text-transform: uppercase;
 padding: 10px;
 
+}
+/* holyday-section-start  */
+.holyday-section-continer{
+    width: 1320px;
+    height: 986px;
+    border: 2px solid red;
+     margin: 0 auto;
+     position: relative;
+}
+.holyday-text-continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+height: 260px;
+margin: 0 auto;
+position: relative;
+}
+.holyday-text-continer h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holyday-text-continer h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holyday-text-continer p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
 }
