@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Merriweather", serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner style start  */
+.banner-continer{
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 5px;
+    background-image: url(../new-year-offer-resources-main/new-year-offer-resources-main/images/Banner\ Image.png);
+    background-color: rgba(0,0,0,0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay
+    
+
+}
+.banner-continer h3{
+color:rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 400;
+    
+}
+.banner-continer h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+font-weight: 900;
+   
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+/* 65%-offer style start  */
+.offer{
+    width: 802.9px;
+height: 806px;
+margin: 0 auto;
+margin-top: 90px;
+
+}
+.offer h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+.offer p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.offer-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-continer{
+
+width: 802.9px;
+height: 500px;
+
+}
+.img-continer img{
+    width: 100%;
+height: 100%;
+
+}
