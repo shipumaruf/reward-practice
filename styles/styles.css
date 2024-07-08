@@ -188,3 +188,19 @@ font-weight: 500;
     position: absolute;
     top: 77%;
 }
+.giftbox{
+    position: absolute;
+    bottom: 30%;
+    right: 45%;
+}
+.discount{
+    position: absolute;
+    bottom: 90%;
+    right:25%;
+}
+.new-year{
+    position: relative;
+    left: 40%;
+    bottom: 200%;
+    
+}
