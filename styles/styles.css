@@ -209,9 +209,9 @@ font-weight: 500;
 .portfolio-continer{
     width: 1320px;
 height: 1163px;
-border: solid red;
 margin: 0 auto;
 margin-top: 120px;
+margin-bottom: 120px;
 
 }
 .contain{
@@ -219,5 +219,39 @@ margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 100%;
+}
+/* .subcribe-section-start */
+.subcribe-section{
+    width: 1320px;
+height: 616px;
+border: 2px solid red;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.invilaf{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 212px 200px 270px ;
+    
+}
+.img{
+    margin-bottom: 50px;
+}
+.Subscribe{
+    margin-bottom: 20px;
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.para{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
 }
 
